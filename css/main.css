@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__mum {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.main__column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.main__column-name {
+    opacity: 0.7;
+}
+
+.main__column-message {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.main__timestamp {
+    font-size: 12px;
+    opacity: 0.7;
+}
