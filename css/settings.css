@@ -1,0 +1,19 @@
+.header__icon-list .left-icon {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.set-list__column {
+    font-size: 20px;
+    margin: 30px 0px;
+    font-weight: 300;
+}
+
+.set-list__column .name {
+    margin-left: 15px;
+}
+
+.set-border {
+    border-bottom: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
+}

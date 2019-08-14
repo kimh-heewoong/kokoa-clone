@@ -4,23 +4,32 @@
     align-items: center;
 }
 
+.main__plus-friend-column {
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
 .main__pic {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .main__mum {
     width: 60px;
     height: 60px;
     border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 .main__column {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
 }
 
 .main__column-name {
@@ -35,4 +44,103 @@
 .main__timestamp {
     font-size: 12px;
     opacity: 0.7;
+}
+
+.main__music {
+
+    font-size: 15px;
+    opacity: 0.6;
+    width: 220px;
+    height: 30px;
+    border: 2px solid #0EF448;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    opacity: 0.7;
+
+}
+
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list__column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list__columns {
+    margin: 20px 0px;
+    margin-right: 20px;
+
+}
+
+.icon-list .icon {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.find-icon-list {
+    border-bottom: 1px solid #F5F5F5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.main-find h5 {
+    font-size: 13px;
+}
+
+.main-find .main__plus-icon {
+    width: 50px;
+    height: 35px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.more-icon {
+    font-size: 40px;
+}
+
+.more-icon-middle-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon-list__columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.more-icon-box i {
+    width: 55px;
+    height: 50px;
+    background-color: #FCE006;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-bottom-icon {
+    color: white;
+}
+
+.more-top-line {
+    border-top: 1px solid #F5F5F5;
+    margin-top: 10px;
+    padding-top: 10px;
 }

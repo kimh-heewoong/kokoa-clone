@@ -6,6 +6,8 @@
     left: 0px;
     border-top: 1px solid #f7f7f7;
     padding: 20px 50px;
+
+
 }
 
 .nav__list {
@@ -34,4 +36,22 @@
     align-items: center;
     top: -7px;
     right: -7px;
+}
+
+@keyframes navbar {
+    from {
+
+        transform: translateY(80px);
+    }
+
+    to {
+
+        transform: none;
+
+    }
+}
+
+.nav {
+    animation: navbar 1s ease-out forwards;
+
 }
